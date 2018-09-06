@@ -1,0 +1,31 @@
+/* http://phpbego.wordpress.com */
+.container {
+	width: 970px;
+	margin: auto;
+	text-align: center;
+}
+.tengah {
+	text-align: center;
+}
+
+.font{
+    font-family: Arial, sans-serif;
+}
+.kanan{
+	position: absolute;
+    top: 570px;
+    right: 200;	
+	
+}
+table {
+    border-collapse: collapse;
+
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+.garis{
+    border: 0px solid black;
+    
+}

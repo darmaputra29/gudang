@@ -1,0 +1,6 @@
+SELECT nama, tglexpayer, DATE_SUB(tglexpayer,INTERVAL 1 month) AS hampirexpayer
+FROM obat where
+
+SELECT nama, tglexpayer, DATE_SUB(tglexpayer,INTERVAL 1 month) AS hampirexpayer FROM obat where tglexpayer=curdate()
+
+SELECT nama, tglexpayer, DATE_SUB(tglexpayer,INTERVAL 1 month) AS hampirexpayer FROM obat
